@@ -1,0 +1,290 @@
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+body {
+	background-color: black;
+	color: white;
+	margin: 4px 4px 4px 4px;
+}
+
+#wrapper {
+	width: 100%;
+	height: 100%;
+	font-size: 1vw;
+	position: relative;
+}
+
+.menu {
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	top: 5px;
+	left: 5px;
+	bottom: 5px;
+	right: 5px;
+	padding: 2px 2px 2px 2px;
+	position: relative;
+	border: 2px solid #00FF00;
+}
+
+.menu-border {
+	float: left;
+	position: relative;
+}
+
+#menu_header_style {
+	width: 100%;
+	height: 5vw;
+}
+
+.header-column {
+	width: 25%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+#header_money_amount {
+	color: green;
+}
+
+#menu_ore_list_style {
+	width: 35%;
+	height: 30vw;
+}
+
+.btn {
+	position: relative;
+	width: 20%;
+	height: 1.3vw;
+	font-size: .9vw;
+	padding: 0;
+	float: right;
+
+}
+
+.btn-mine {
+	color: #fff;
+    background-color: #242a0c;
+    border-color: #5a6822;
+}
+
+.btn-mine:hover {
+	color: #fff;
+    background-color: #404b16;
+    border-color: #8aa035;
+}
+
+.color-amt-active {
+	background-color: #000000;
+}
+
+.color-amt-toggled {
+	background-color: #121212;
+}
+
+.item-amt-selector {
+	border-bottom: 2px solid #00FF00;
+	height: 2vw;
+}
+
+.item-amt-selector-item {
+	position:relative;
+	height: 100%;
+	width: 20%;
+	float: left;
+	padding-top: 0.3vw;
+	text-align: center;
+}
+
+.item-amt-selector-item:hover {
+	background-color: #121212;
+	color: white;
+}
+
+.ore-list-section-title {
+	font-size: 1vw;
+	width: 100%;
+	text-align: center;
+}
+
+.item-ore {
+	height: 3vw;
+	border: 1px solid #FF0000;
+	margin: 4px 4px 4px 4px;
+	padding-left: 2px;
+}
+
+.item-ore-text {
+	float: left;
+	height: 100%;
+	width: 40%;
+	position: relative;
+}
+
+.item-ore-text:hover {
+	background-color: #121212;
+}
+
+.item-ore-workers {
+	float: right;
+	padding-right: 3px;
+}
+
+.progress {
+	float: right;
+	height: 1.3vw;
+    width: 40%;
+	margin-bottom: 0;
+    position: relative;
+	background-color: #121212;
+}
+
+.progress-bar {
+	width: 100%;
+    position: absolute;
+	-webkit-transition-duration: .2s; /* Safari */
+    transition-duration: .2s;
+}
+
+.progress-color-copper {
+	background-color: #5b1f15;
+}
+
+.progress-color-tin {
+	background-color: #20424a;
+}
+
+.progress-color-bronze {
+	background-color: #5b4c15;
+}
+
+.progress-color-iron {
+	background-color: #404040;
+}
+
+.progress-text {
+	position: absolute;
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    text-shadow: -1px -1px 0px rgb(0, 0, 0), 1px -1px 0px rgb(0, 0, 0), -1px 1px 0px rgb(0, 0, 0), 1px 1px 0px rgb(0, 0, 0);
+}
+
+#menu_center_wrapper_style {
+	width: 30%;
+	height: 30vw;
+}
+
+#desc_item_title {
+	text-align: center;
+	width: 100%;
+	position: relative;
+	float: left;
+	font-size: 1.8vw;
+}
+
+.btn-desc-half {
+	float: left;
+	position: relative;
+	width: 50%;
+	height: 2vw;
+	font-size: 1.4vw;
+	margin: 3px 0px 3px 0px;
+}
+
+.btn-desc-full {
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 2vw;
+	font-size: 1.4vw;
+	margin: 3px 0px 3px 0px;
+}
+
+.desc-item-heading {
+	text-align: center;
+	width: 100%;
+	position: relative;
+	float: left;
+	font-size: 1.4vw;
+}
+
+#menu_right_wrapper_style {
+	width: 35%;
+	height: 30vw;
+}
+
+.item-business {
+	height: 3vw;
+	border: 1px solid #FF0000;
+	margin: 4px 4px 4px 4px;
+	position: relative;
+}
+
+.item-business-progress {
+	position: absolute;
+	width: 85%;
+	height: 100%;
+}
+
+.item-business-name {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.btn-convince {
+	width: 15%;
+	float: right;
+	position: relative;
+	height: 100%;
+	z-index: 1;
+}
+
+.btn-color-green {
+	color: #fff;
+	background-color: #0c2a0e;
+	border-color: #226825;
+}
+
+.btn-color-green:hover {
+	color: #fff;
+	background-color: #164b18;
+	border-color: #35a03a;
+}
+
+.btn-color-red {
+	color: #fff;
+	background-color: #2a0c0c;
+	border-color: #682222;
+}
+
+.btn-color-red:hover {
+	color: #fff;
+	background-color: #4b1616;
+	border-color: #a03535;
+}
+
+#menu_info_log_style {
+	width: 50%;
+	height: 20vw;
+	position: relative;
+}
+
+#menu_info_log {
+	overflow-y: scroll;
+}
+
+.info-log-entry {
+	position: relative;
+}
+
+

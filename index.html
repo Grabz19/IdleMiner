@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body>
+		<div id="wrapper">
+			<div class="menu-border noselect" id="menu_header_style">
+				<div class="menu" id="menu_header">
+					<div class="header-column">
+						<span class="header-text">Money: <span id="header_money_amount"></span></span><br>
+						<span class="header-text">Unemployment: <span id="header_unemployed_amount"></span></span>
+					</div>
+					<div class="header-column"></div>
+					<div class="header-column"></div>
+					<div class="header-column">
+						<span class="header-text">Frame time: <span id="header_frame_time"></span>ms</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu-border noselect" id="menu_ore_list_style">
+				<div class="menu" id="menu_ore_list">
+					<div class="item-amt-selector">
+						<div id="item_amt_selector_1" class="btn item-amt-selector-item color-amt-active" onclick="selectControlAmount(1)">1</div>
+						<div id="item_amt_selector_5" class="btn item-amt-selector-item color-amt-active" onclick="selectControlAmount(5)">5</div>
+						<div id="item_amt_selector_10" class="btn item-amt-selector-item color-amt-active" onclick="selectControlAmount(10)">10</div>
+						<div id="item_amt_selector_25" class="btn item-amt-selector-item color-amt-active" onclick="selectControlAmount(25)">25</div>
+						<div id="item_amt_selector_50" class="btn item-amt-selector-item color-amt-active" onclick="selectControlAmount(50)">50</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-border noselect" id="menu_center_wrapper_style"><div class="menu" id="menu_center_wrapper"></div></div>
+			<div class="menu-border noselect" id="menu_right_wrapper_style"><div class="menu" id="menu_right_wrapper"></div></div>
+			<div class="menu-border" id="menu_info_log_style"><div class="menu" id="menu_info_log"></div></div>
+		</div>
+		
+		<script type="text/javascript" src="decimal.min.js"></script>
+		<script type="text/javascript" src="main2.js"></script>
+	</body>
+</html>
